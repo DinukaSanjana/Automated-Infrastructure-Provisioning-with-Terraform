@@ -38,6 +38,7 @@ provider "aws" {
   region = var.AWS_REGION
 }
 ```
+<!--
 
 ### vars.tf
 ```hcl
@@ -172,6 +173,8 @@ resource "aws_lb_target_group_attachment" "attach" {
   port             = 80
 }
 ```
+
+-->
 
 ## Deployment Steps
 ```bash
